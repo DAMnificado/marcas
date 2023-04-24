@@ -1,0 +1,15 @@
+<xsl: element name=""/> cd, tittle,artist
+
+<xsl: attribute name=""/> @
+
+<xsl: text>
+.......
+<xsl: text/>
+
+
+un nodo una vez que se procesa queda tocado excepto que tengamos un apply-templates
+una vez que encuentra una plantilla se ejecuta y no vuelve
+excepto que dentro de una plantilla haya otra (con aply-templates) entonces se ejecutaria
+cd tittle
+   artist
+   nombre
