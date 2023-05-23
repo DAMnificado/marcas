@@ -17,7 +17,7 @@
   </xsl:template>
   <xsl:template match="cd">
 <tr>
-<td><xsl:value-of select="tittle"/></td>
+<td><xsl:value-of select="title"/></td>
 <td><xsl:value-of select="artist"/></td>
 </tr>  
   </xsl:template>
